@@ -129,6 +129,7 @@ The following arguments are supported:
 * `environment_variable` - (Optional) A set of environment variables to make available to builds for this build project.
 
 `environment_variable` supports the following:
+
 * `name` - (Required) The environment variable's name or key.
 * `value` - (Required) The environment variable's value.
 
@@ -142,7 +143,7 @@ The following arguments are supported:
 `auth` supports the following:
 
 * `type` - (Required) The authorization type to use. The only valid value is `OAUTH`
-* `resource` - (Optional) The resource value that applies to the specified authorization type.
+* `resource` - (Required) The resource value that applies to the specified authorization type.
 
 ## Attributes Reference
 
@@ -153,4 +154,3 @@ The following attributes are exported:
 * `encryption_key` - The AWS Key Management Service (AWS KMS) customer master key (CMK) that was used for encrypting the build project's build output artifacts.
 * `name` - The projects name.
 * `service_role` - The ARN of the IAM service role.
-
