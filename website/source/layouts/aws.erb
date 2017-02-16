@@ -44,6 +44,9 @@
                         <li<%= sidebar_current("docs-aws-datasource-cloudformation-stack") %>>
                             <a href="/docs/providers/aws/d/cloudformation_stack.html">aws_cloudformation_stack</a>
                         </li>
+                        <li<%= sidebar_current("docs-aws-datasource-db-instance") %>>
+                            <a href="/docs/providers/aws/d/db_instance.html">aws_db_instance</a>
+                        </li>
                         <li<%= sidebar_current("docs-aws-datasource-ebs-snapshot") %>>
                           <a href="/docs/providers/aws/d/ebs_snapshot.html">aws_ebs_snapshot</a>
                         </li>
@@ -118,6 +121,9 @@
                         </li>
                         <li<%= sidebar_current("docs-aws-datasource-vpc-peering-connection") %>>
                             <a href="/docs/providers/aws/d/vpc_peering_connection.html">aws_vpc_peering_connection</a>
+                        </li>
+                        <li<%= sidebar_current("docs-aws-datasource-vpn-gateway") %>>
+                            <a href="/docs/providers/aws/d/vpn_gateway.html">aws_vpn_gateway</a>
                         </li>
                     </ul>
                 </li>
@@ -247,6 +253,9 @@
 
                     </ul>
                 </li>
+                <%
+=begin
+                %>
 
 
                 <li<%= sidebar_current(/^docs-aws-resource-codebuild/) %>>
@@ -259,6 +268,9 @@
 
                     </ul>
                 </li>
+                <%
+=end
+              %>
 
 
                 <li<%= sidebar_current(/^docs-aws-resource-codecommit/) %>>
@@ -316,6 +328,29 @@
 
                         <li<%= sidebar_current("docs-aws-resource-dms-replication-task") %>>
                             <a href="/docs/providers/aws/r/dms_replication_task.html">aws_dms_replication_task</a>
+                        </li>
+
+                    </ul>
+                </li>
+
+                <li<%= sidebar_current(/^docs-aws-resource-config/) %>>
+                    <a href="#">Config Resources</a>
+                    <ul class="nav nav-visible">
+
+                        <li<%= sidebar_current("docs-aws-resource-config-config-rule") %>>
+                            <a href="/docs/providers/aws/r/config_config_rule.html">aws_config_config_rule</a>
+                        </li>
+
+                        <li<%= sidebar_current("docs-aws-resource-config-configuration-recorder") %>>
+                            <a href="/docs/providers/aws/r/config_configuration_recorder.html">aws_config_configuration_recorder</a>
+                        </li>
+
+                        <li<%= sidebar_current("docs-aws-resource-config-configuration-recorder-status") %>>
+                            <a href="/docs/providers/aws/r/config_configuration_recorder_status.html">aws_config_configuration_recorder_status</a>
+                        </li>
+
+                        <li<%= sidebar_current("docs-aws-resource-config-delivery-channel") %>>
+                            <a href="/docs/providers/aws/r/config_delivery_channel.html">aws_config_delivery_channel</a>
                         </li>
 
                     </ul>
@@ -607,6 +642,10 @@
 
                         <li<%= sidebar_current("docs-aws-resource-elasticsearch-domain") %>>
                             <a href="/docs/providers/aws/r/elasticsearch_domain.html">aws_elasticsearch_domain</a>
+                        </li>
+
+                        <li<%= sidebar_current("docs-aws-resource-elasticsearch-domain-policy") %>>
+                            <a href="/docs/providers/aws/r/elasticsearch_domain_policy.html">aws_elasticsearch_domain_policy</a>
                         </li>
 
                     </ul>
@@ -1238,6 +1277,10 @@
 
                         <li<%= sidebar_current("docs-aws-resource-vpc-peering") %>>
                             <a href="/docs/providers/aws/r/vpc_peering.html">aws_vpc_peering_connection</a>
+                        </li>
+
+                        <li<%= sidebar_current("docs-aws-resource-vpc-peering-accepter") %>>
+                            <a href="/docs/providers/aws/r/vpc_peering_accepter.html">aws_vpc_peering_connection_accepter</a>
                         </li>
 
                         <li<%= sidebar_current("docs-aws-resource-vpn-connection") %>>

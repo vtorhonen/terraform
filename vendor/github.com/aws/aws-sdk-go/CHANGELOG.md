@@ -1,3 +1,52 @@
+Release v1.6.22 (2017-02-14)
+===
+
+Service Client Updates
+---
+* `service/ec2`: Updates service API, documentation, and paginators
+  * Adds support for the new Modify Volumes apis.
+
+Release v1.6.21 (2017-02-11)
+===
+
+Service Client Updates
+---
+* `service/storagegateway`: Updates service API, documentation, and paginators
+  * File gateway mode in AWS Storage gateway provides access to objects in S3 as files on a Network File System (NFS) mount point. This is done by creating Nfs file shares using existing APIs CreateNfsFileShare. Using the feature in this update, the customer can restrict the clients that have read/write access to the gateway by specifying the list of clients as a list of IP addresses or CIDR blocks. This list can be specified using the API CreateNfsFileShare while creating new file shares, or UpdateNfsFileShare while update existing file shares. To find out the list of clients that have access, the existing API DescribeNfsFileShare will now output the list of clients that have access.
+
+Release v1.6.20 (2017-02-09)
+===
+
+Service Client Updates
+---
+* `service/ec2`: Updates service API and documentation
+  * This feature allows customers to associate an IAM profile to running instances that do not have any.
+* `service/rekognition`: Updates service API and documentation
+  * DetectFaces and IndexFaces operations now return an estimate of the age of the face as an age range.
+
+SDK Features
+---
+* `aws/endpoints`: Add option to resolve unknown endpoints (#1074)
+Release v1.6.19 (2017-02-08)
+===
+
+Service Client Updates
+---
+* `aws/endpoints`: Updated Regions and Endpoints metadata.
+* `service/glacier`: Updates service examples
+	* Doc Update
+* `service/lexruntimeservice`: Adds new service
+	* Preview release
+
+SDK Bug Fixes
+---
+* `private/protocol/json`: Fixes json to throw an error if a float number is (+/-)Inf and NaN (#1068)
+* `private/model/api`: Fix documentation error listing (#1067)
+
+SDK Features
+---
+* `private/model`: Add service response error code generation (#1061)
+
 Release v1.6.18 (2017-01-27)
 ===
 
