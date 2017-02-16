@@ -195,16 +195,12 @@ body.layout-intro{
 }
 
 .bs-docs-section{
-<<<<<<< HEAD
 	@media(max-width: 767px){
 		padding: 10px 5px 80px 5px;
 	}
 	@media(min-width: 768px){
 		padding: 10px 20px 80px 20px;
 	}
-=======
-	padding: 10px 10px 80px 10px;
->>>>>>> 0-8-stable
 
 	.lead{
 		margin-bottom: 48px
@@ -216,11 +212,7 @@ body.layout-intro{
 
 	p, li, .alert {
 		font-size: 18px;
-<<<<<<< HEAD
-    line-height: 1.5;
-=======
     line-height: 1.5em;
->>>>>>> 0-8-stable
 		margin: 0 0 18px;
     -webkit-font-smoothing: antialiased;
 	}
@@ -249,13 +241,10 @@ body.layout-intro{
 		text-transform: uppercase;
 		letter-spacing: -1px;
     word-wrap: break-word;
-<<<<<<< HEAD
-=======
 		padding-bottom: 24px;
     margin-top: 24px;
 		margin-bottom: 30px;
     border-bottom: 1px solid #eeeeee;
->>>>>>> 0-8-stable
 	}
 
 	h2, h3, h4{
