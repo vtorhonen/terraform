@@ -1,3 +1,15 @@
+GIT
+  remote: https://github.com/hashicorp/middleman-hashicorp.git
+  revision: 0d9c17d6fa203840a8c4570c1f015e3cad08dbce
+  specs:
+    middleman-hashicorp (0.3.8)
+      bootstrap-sass (~> 3.3)
+      builder (~> 3.2)
+      middleman (~> 3.4)
+      middleman-livereload (~> 3.4)
+      middleman-syntax (~> 3.0)
+      redcarpet (~> 3.3)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -41,7 +53,7 @@ GEM
     erubis (2.7.0)
     eventmachine (1.2.3)
     execjs (2.7.0)
-    ffi (1.9.17)
+    ffi (1.9.18)
     haml (4.0.7)
       tilt
     hike (1.2.3)
@@ -77,13 +89,6 @@ GEM
       rack (>= 1.4.5, < 2.0)
       thor (>= 0.15.2, < 2.0)
       tilt (~> 1.4.1, < 2.0)
-    middleman-hashicorp (0.3.8)
-      bootstrap-sass (~> 3.3)
-      builder (~> 3.2)
-      middleman (~> 3.4)
-      middleman-livereload (~> 3.4)
-      middleman-syntax (~> 3.0)
-      redcarpet (~> 3.3)
     middleman-livereload (3.4.6)
       em-websocket (~> 0.5.1)
       middleman-core (>= 3.3)
@@ -147,7 +152,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  middleman-hashicorp (= 0.3.8)
+  middleman-hashicorp!
 
 BUNDLED WITH
    1.14.5
