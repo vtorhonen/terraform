@@ -36,5 +36,5 @@ func providerConfigure(d *schema.ResourceData) (interface{}, error) {
 		Password: d.Get("password").(string),
 	}
 
-	return config.Service()
+	return config.Client()
 }
